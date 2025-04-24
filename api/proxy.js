@@ -2,7 +2,7 @@ const axios = require('axios');
 const querystring = require('querystring');
 
 module.exports = async (req, res) => {
-  const targetUrl = 'http://41.211.108.123:4053/apiasac/pooltpv/api/save/getStatutVehiculeEncirculationApp';
+  const targetUrl = 'http://154.72.155.50:8082/api/prod-dna/search';
 
   // Parse the incoming request URL to get the query parameters
   const queryParams = querystring.stringify(req.query);
